@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Open-CMSIS-Pack/devtools/schemas/projmgr/1.0.0/tools/projmgr/schemas/csolution.schema.json
+
+solution:
+  packs:
+    - pack: ARM::CMSIS
+    - pack: NXP::K32L3A60_DFP@15.0.0
+
+  target-types:
+    - type: FRDM-K32L3A6
+      # board:FRDM-K32L3A6
+      device: K32L3A60VPJ1A
+
+  projects:
+    - project: ./cm0plus/HelloWorld_cm0plus.cproject.yml
+    - project: ./cm4/HelloWorld_cm4.cproject.yml
