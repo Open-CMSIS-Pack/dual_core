@@ -1,5 +1,7 @@
 # Multicore Hello World project
 
+THIS REPOSITORY IS NO LONGER MAINTAINED. See CMSIS solution multicore example here: [DualCore](https://github.com/Open-CMSIS-Pack/csolution-examples/tree/main/DualCore#readme)
+
 The Multicore Hello World demo for FRDM-K32L3A6 board. See more details in [readme.txt](./readme.txt).
 
 ## Prerequisites
